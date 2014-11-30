@@ -1,0 +1,13 @@
+{
+    "name": "fruty/test-task",
+    "description": "Test task",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduard",
+            "email": "ed.fruty@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
