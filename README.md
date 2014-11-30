@@ -10,7 +10,7 @@ After that you can access project in http://localhost:8000/
 
 ##Requirements
 - PHP 5.4 and above
-- write access to the logs/errors
+- write access to the logs/errors.log
 
 ##Structure
 ```bash
