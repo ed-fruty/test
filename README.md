@@ -31,7 +31,7 @@ app/
     Templating/                 Templating system. Any template system like Twig, Smarty, Blade etc. can be added as driver 
     Traits/                     Traits
 bootstrap/
-  bootstrap.php                 Bootstrap file, detect current environment and set project root path
+  bootstrap.php                 Bootstrap file, detect current environment and set project root path, register class loader
   routes.php                    Application routes
 config/                       
   {Environment}/
