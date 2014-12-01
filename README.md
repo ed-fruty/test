@@ -25,7 +25,7 @@ app/
     Manager.php                 Data providers manager
   Support/                    Something like core files. Simple components for current application
     Contracts/                  Interfaces
-    Facades/                    Facades, witch delegate calls to the instance of accessor class
+    Facades/                    Facades, which delegate calls to the instance of accessor class
     Foundation/                 Kernel
     Http/                       Routing, request and response
     Templating/                 Templating system. Any template system like Twig, Smarty, Blade etc. can be added as driver 
@@ -48,15 +48,15 @@ resources/
 ##Logic
 
 Core:
-  - First of all loads bootsrap file, witch detect current environment
-  - Load environment configuration file
-  - Register and boot application service providers. All aplication features can be extended by addition service provider (For example register error handler, including routes file, create some connection, adding new package etc.)
+  - First of all bootsrap file is loaded, which detects current environment
+  - Loading environment configuration file
+  - Registering and booting application service providers. All aplication features can be extended by addition service provider (For example register error handler, including routes file, create some connection, adding new package etc.)
   - Handle request
   
 Data Filtering:
-  - Create data provider instance
-  - Load resource file and reformat data
-  - Create collection with formated data
-  - Filter data if it needs and returns new instance of filtered collection
+  - Creating data provider instance
+  - Loading resource file and reformat data
+  - Creating collection with formated data
+  - Filtering data if it needs and returns new instance of filtered collection
   - Sorting data in collection
-  - Return response
+  - Returning response
