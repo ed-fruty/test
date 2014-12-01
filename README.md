@@ -23,11 +23,11 @@ app/
     DataCollection.php          Data collection
     DataFilter.php              Data filtering class
     Manager.php                 Data providers manager
-  Support/                    Something like core files. Here i wrote a components for current application working
+  Support/                    Something like core files. Simple components for current application
     Contracts/                  Interfaces
     Facades/                    Facades, witch delegate calls to the instance of accessor class
     Foundation/                 Kernel
-    Http/                       Simple routing, request and response
+    Http/                       Routing, request and response
     Templating/                 Templating system. Any template system like Twig, Smarty, Blade etc. can be added as driver 
     Traits/                     Traits
 bootstrap/
